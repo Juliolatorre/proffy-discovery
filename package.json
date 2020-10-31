@@ -1,24 +1,23 @@
 {
-  "name": "nlw",
+  "name": "proffy-discovery",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "<p align=\"center\">   <img src=\"../public/images/purple-logo.svg\" width=\"300\" > </p>",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliolatorre/NLW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juliolatorre/NLW/issues"
+  },
+  "homepage": "https://github.com/Juliolatorre/NLW#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "async": "^3.2.0",
-=======
->>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     "express": "^4.17.1",
-    "nunjucks": "^3.2.2",
-    "sqlite-async": "^1.1.0"
+    "nunjucks": "^3.2.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   }
 }
