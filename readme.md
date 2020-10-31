@@ -36,6 +36,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://www.javascript.com/)
 - [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
 - [Nunjucks](https://mozilla.github.io/nunjucks//)
 - [SQLite](https://www.sqlite.org/index.html)
 
