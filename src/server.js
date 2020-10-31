@@ -5,7 +5,11 @@ const proffys = [
     whatsapp: "19884561239",
     bio: "Entusiasta das melhores tecnologias de química avançada.Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.",
     subject: "Química",
+<<<<<<< HEAD
     cost: "20",
+=======
+    cost: "20,00",
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     weekday: [0],
     time_from: [720],
     time_to: [1220], 
@@ -16,7 +20,11 @@ const proffys = [
     whatsapp: "16987546923",
     bio: "Entusiasta das melhores tecnologias de química avançada.Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.",
     subject: "Química",
+<<<<<<< HEAD
     cost: "20",
+=======
+    cost: "20,00",
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     weekday: [1],
     time_from: [720],
     time_to: [1220], 
@@ -27,7 +35,11 @@ const proffys = [
     whatsapp: "17994567898",
     bio: "Entusiasta das melhores tecnologias de química avançada.Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.",
     subject: "Química",
+<<<<<<< HEAD
     cost: "20",
+=======
+    cost: "20,00",
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     weekday: [1],
     time_from: [720],
     time_to: [1220], 
@@ -74,7 +86,11 @@ function pageStudy(req, res) {
 function pageGiveClasses(req, res) {
   const data = req.query
   const isNotEmpty = Object.keys(data).length > 0
+<<<<<<< HEAD
   if(isNotEmpty) {
+=======
+  if(isNotEmpty) {                                                                                                                                                                                                                                                                                                                                                                                                            
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     data.subject = getSubject(data.subject)
     proffys.push(data)
     return res.redirect("/study")

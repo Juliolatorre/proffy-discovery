@@ -51,6 +51,10 @@
   }
   
   #page-give-classes fieldset legend button:hover {
+<<<<<<< HEAD
+=======
+    transform: translateY(-5px);
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     color: var(--color-primary-dark);
   }
   

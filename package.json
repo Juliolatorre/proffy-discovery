@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "async": "^3.2.0",
+=======
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
     "express": "^4.17.1",
     "nunjucks": "^3.2.2",
     "sqlite-async": "^1.1.0"

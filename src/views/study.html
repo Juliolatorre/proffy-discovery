@@ -47,7 +47,11 @@
                             <option value="" disabled="" hidden="">Selecione uma opção</option>
                            
                             {% for weekday in weekdays %}
+<<<<<<< HEAD
                                 <option value="{{  loop.index0 }}" {{ "selected" if filters.weekday == loop.index0 }}>
+=======
+                                <option value="{{ loop.index0 }}" {{ "selected" if filters.weekday == loop.index0 }}>
+>>>>>>> 96b73b4aac278ee5661470ac79c1ca012b6f49a6
                                 {{ weekday }}
                                 </option>
                             {% endfor %}
